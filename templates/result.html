@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-2xl mx-auto mt-10 space-y-6">
+    <h2 class="text-xl font-semibold">📓 Your Journal Entry:</h2>
+    <p class="bg-white border border-gray-300 p-4 rounded shadow">{{ entry }}</p>
+
+    <h2 class="text-xl font-semibold">🧠 Detected Mood:</h2>
+    <p class="font-bold text-lg p-4 rounded 
+        {% if 'Positive' in mood %}
+            text-green-700 bg-green-100 border border-green-300
+        {% elif 'Neutral' in mood %}
+            text-yellow-700 bg-yellow-100 border border-yellow-300
+        {% else %}
+            text-red-700 bg-red-100 border border-red-300
+        {% endif %}">
+        {{ mood }} (Confidence: {{ confidence | round(2) }}%)
+    </p>
+
+    <div class="space-x-4">
+        <a href="/" class="text-indigo-600 hover:underline">✍️ Write Another Entry</a>
+        <a href="/history" class="text-indigo-600 hover:underline">📊 View Mood History</a>
+    </div>
+</div>
+{% endblock %}
