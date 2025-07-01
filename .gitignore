@@ -29,4 +29,9 @@ venv/
 
 # Git Bare Repo
 MOOD_ANALYZER.git/
+# Add lines like:
+*.pt
+*.pkl
+*.h5
+__pycache__/
 
