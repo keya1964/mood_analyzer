@@ -1,3 +1,32 @@
 venv1/
 venv_new_version/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+
+# Logs & Data
+*.log
+*.csv
+*.json
+*.xlsx
+*.sqlite3
+
+# Git Bare Repo
+MOOD_ANALYZER.git/
 
