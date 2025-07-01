@@ -1,8 +1,3 @@
-Timestamp,Entry,Mood,Confidence
-2025-06-25 13:41:18.645088,I feel amazing,😊 Positive,98.04%
-2025-06-25 13:41:28.185845,"I feel ok!
-",😊 Positive,93.71%
-2025-06-25 13:41:46.091959,I feel like studying maybe...,😐 Neutral,73.09%
-2025-06-26 09:03:08.404985,I feel healthy!,😊 Positive,96.10%
-2025-06-26 09:03:30.965499,I feel I am in a great mood to start something new!,😊 Positive,98.96%
-2025-06-26 14:39:05.380692,I want to complete today's task.,😊 Positive,67.16%
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2ce69bc5f3c18fc30999b70fa2ad85080bd702518be26ceecf03edf3492db0d
+size 487
