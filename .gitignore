@@ -35,3 +35,5 @@ MOOD_ANALYZER.git/
 *.h5
 __pycache__/
 
+mood_entries_export.csv
+mood_log.csv
